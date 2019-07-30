@@ -6,4 +6,4 @@ EXPOSE 3000
 
 USER node
 
-CMD [ "tail", "-f", "/dev/null" ]
+CMD [ "npm", "start" ]
