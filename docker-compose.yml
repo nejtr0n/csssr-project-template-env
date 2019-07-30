@@ -1,0 +1,7 @@
+version: '2'
+services:
+  csssr-project-template:
+    build: .
+    container_name: csssr-project-template
+    volumes:
+      - ./csssr-project-template:/usr/src/app
