@@ -5,3 +5,5 @@ services:
     container_name: csssr-project-template
     volumes:
       - ./csssr-project-template:/usr/src/app
+    ports:
+      - 3000:3000
